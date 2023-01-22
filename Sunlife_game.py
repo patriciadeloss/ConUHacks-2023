@@ -101,7 +101,7 @@ def sunny_display():
 
         #display image over background
         #[windowname].blit(image, [x, y] on window (top left corner))
-        screen.blit(sunny_animation[frame], (SCREEN_WIDTH/2 - (sunnySize[0]*sunnyScale/2), SCREEN_HEIGHT/2 - (sunnySize[1]*sunnyScale/2)))
+        screen.blit(sunny_animation[frame], (SCREEN_WIDTH/2 - (sunnySize[0]*sunnyScale/2), SCREEN_HEIGHT/2 - (sunnySize[1]*sunnyScale/2) + 20))
 
         #textbox
         screen.blit(textbox, (SCREEN_WIDTH/2 - (textboxSize[0]*textboxScale/2), SCREEN_HEIGHT - (textboxSize[1]*textboxScale) - 10))
