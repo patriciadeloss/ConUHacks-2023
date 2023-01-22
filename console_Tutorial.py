@@ -1,5 +1,5 @@
 from text_display import *
-import sunny
+#import sunny
 
 def Hello():
     #clear() #clear the screen
