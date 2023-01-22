@@ -30,6 +30,8 @@ def Tutorial():
 
     display_text("---HAPPINESS---")
     print("This is Sunny's Happiness. While saving money is important, it is also important to take care of our \nmental health and stress levels.")
+    print("Certain activities such as going out with friends or choosing to rest instead of going to work will increase happiness.")
+    print("However, it may cost some money...")
     display_text("If Sunny's Happiness drops beolow a certain threshold, her Health will begin to decrease.")
 
 
