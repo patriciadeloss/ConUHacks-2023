@@ -136,3 +136,5 @@ def sunny_display():
         '''
 
     pygame.quit()
+
+sunny_display()
