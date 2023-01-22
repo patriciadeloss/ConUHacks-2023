@@ -104,7 +104,7 @@ def sunny_display():
         screen.blit(sunny_animation[frame], (SCREEN_WIDTH/2 - (sunnySize[0]*sunnyScale/2), SCREEN_HEIGHT/2 - (sunnySize[1]*sunnyScale/2)))
 
         #textbox
-        #screen.blit(textbox, (SCREEN_WIDTH/2 - (textboxSize[0]*textboxScale/2), SCREEN_HEIGHT - (textboxSize[1]*textboxScale) - 10))
+        screen.blit(textbox, (SCREEN_WIDTH/2 - (textboxSize[0]*textboxScale/2), SCREEN_HEIGHT - (textboxSize[1]*textboxScale) - 10))
 
         #health icon
         screen.blit(health_icon, (10, 10))
